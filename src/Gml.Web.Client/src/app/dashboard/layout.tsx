@@ -42,6 +42,11 @@ const menu: TMenuItem[] = [
     text: 'Файловый менеджер',
   },
   {
+    icon: <PuzzleIcon size={16} />,
+    path: DASHBOARD_PAGES.MODULES,
+    text: 'Модули',
+  },
+  {
     icon: <SettingsIcon size={16} />,
     path: DASHBOARD_PAGES.SETTINGS,
     text: 'Настройки',
